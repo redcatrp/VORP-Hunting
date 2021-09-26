@@ -1,10 +1,10 @@
 Config = { }
 
 Config.Language = {
-    ["NotHoldingAnimal"] = "You Got Nothing To Sell",
-    ["NotInTheButcher"] = "I won't buy that animal",
-    ["AnimalSold"] = "Thanks for the deal!",
-    notabutcher = "You Dont Have The Right Job",
+    ["NotHoldingAnimal"] = "Du hast nichts zum Verkaufen",
+    ["NotInTheButcher"] = "Der Metzger will das nicht haben",
+    ["AnimalSold"] = "Verkauft!",
+    notabutcher = "Du hast nicht den richtigen Beruf",
 }
 
 Config.ItemQuantity = {
@@ -17,14 +17,14 @@ Config.joblocked = false -- lock the butcher so only people with the job can acc
 Config.maxpelts = 2 -- max pelts allowed on back of horse
 
 Config.Butchers = {
-    {["butchername"] = "Valentine Butcher", ["butcherjob"] = "butcher",    ["pressToSell"] = "Press [~e~Space~q~] to sell",  ["blip"] = 1369919445,  ["npcmodel"] = "S_M_M_UNIBUTCHERS_01",  ["coords"] = vector3(-339.0141, 767.6358, 115.5645),    ["heading"] = 100.41544342041,   ["radius"] = 3.0},
-    {["butchername"] = "Strawberry Butcher", ["butcherjob"] = "butcher",   ["pressToSell"] = "Press [~e~Space~q~] to sell",  ["blip"] = 1369919445,  ["npcmodel"] = "S_M_M_UNIBUTCHERS_01",  ["coords"] = vector3(-1753.143, -392.4201, 155.2578),   ["heading"] = 181.37438964844,   ["radius"] = 3.0},
-    {["butchername"] = "Blackwater Butcher", ["butcherjob"] = "butcher",  ["pressToSell"] = "Press [~e~Space~q~] to sell",  ["blip"] = 1369919445,  ["npcmodel"] = "S_M_M_UNIBUTCHERS_01",  ["coords"] = vector3(-754.0, -1285.158, 43.03),    ["heading"] = 273.579,   ["radius"] = 3.0},
-    {["butchername"] = "Annesburg Butcher", ["butcherjob"] = "butcher",    ["pressToSell"] = "Press [~e~Space~q~] to sell",  ["blip"] = 1369919445,  ["npcmodel"] = "S_M_M_UNIBUTCHERS_01",  ["coords"] = vector3(2934.51, 1301.159, 43.48365),      ["heading"] = 70.572128295898,   ["radius"] = 3.0},
-    {["butchername"] = "Van Horn Butcher",  ["butcherjob"] = "butcher",    ["pressToSell"] = "Press [~e~Space~q~] to sell",  ["blip"] = 1369919445,  ["npcmodel"] = "S_M_M_UNIBUTCHERS_01",  ["coords"] = vector3(2991.844, 572.0218, 43.36182),     ["heading"] = 259.52850341797,   ["radius"] = 3.0},
-    {["butchername"] = "Rhodes Butcher",   ["butcherjob"] = "butcher",     ["pressToSell"] = "Press [~e~Space~q~] to sell",  ["blip"] = 1369919445,  ["npcmodel"] = "S_M_M_UNIBUTCHERS_01",  ["coords"] = vector3(1297.578, -1277.589, 74.88102),    ["heading"] = 146.60472106934,   ["radius"] = 3.0},
-    {["butchername"] = "Armadillo Butcher", ["butcherjob"] = "butcher",    ["pressToSell"] = "Press [~e~Space~q~] to sell",  ["blip"] = 1369919445,  ["npcmodel"] = "S_M_M_UNIBUTCHERS_01",  ["coords"] = vector3(-3691.438, -2623.152, -14.75121),  ["heading"] = 0.46632757782936,  ["radius"] = 3.0},
-    {["butchername"] = "Tumbleweed Butcher", ["butcherjob"] = "butcher",   ["pressToSell"] = "Press [~e~Space~q~] to sell",  ["blip"] = 1369919445,  ["npcmodel"] = "S_M_M_UNIBUTCHERS_01",  ["coords"] = vector3(-5510.371, -2947.005, -1.894515),  ["heading"] = 251.54911804199,   ["radius"] = 3.0}
+    {["butchername"] = "Valentine Butcher", ["butcherjob"] = "butcher",    ["pressToSell"] = "Drücke [~e~Leer~q~] zum Verkaufen",  ["blip"] = 1369919445,  ["npcmodel"] = "S_M_M_UNIBUTCHERS_01",  ["coords"] = vector3(-339.0141, 767.6358, 115.5645),    ["heading"] = 100.41544342041,   ["radius"] = 3.0},
+    {["butchername"] = "Strawberry Butcher", ["butcherjob"] = "butcher",   ["pressToSell"] = "Drücke [~e~Leer~q~] zum Verkaufen",  ["blip"] = 1369919445,  ["npcmodel"] = "S_M_M_UNIBUTCHERS_01",  ["coords"] = vector3(-1753.143, -392.4201, 155.2578),   ["heading"] = 181.37438964844,   ["radius"] = 3.0},
+    {["butchername"] = "Blackwater Butcher", ["butcherjob"] = "butcher",  ["pressToSell"] = "Drücke [~e~Leer~q~] zum Verkaufen",  ["blip"] = 1369919445,  ["npcmodel"] = "S_M_M_UNIBUTCHERS_01",  ["coords"] = vector3(-754.0, -1285.158, 43.03),    ["heading"] = 273.579,   ["radius"] = 3.0},
+    {["butchername"] = "Annesburg Butcher", ["butcherjob"] = "butcher",    ["pressToSell"] = "Drücke [~e~Leer~q~] zum Verkaufen",  ["blip"] = 1369919445,  ["npcmodel"] = "S_M_M_UNIBUTCHERS_01",  ["coords"] = vector3(2934.51, 1301.159, 43.48365),      ["heading"] = 70.572128295898,   ["radius"] = 3.0},
+    {["butchername"] = "Van Horn Butcher",  ["butcherjob"] = "butcher",    ["pressToSell"] = "Drücke [~e~Leer~q~] zum Verkaufen",  ["blip"] = 1369919445,  ["npcmodel"] = "S_M_M_UNIBUTCHERS_01",  ["coords"] = vector3(2991.844, 572.0218, 43.36182),     ["heading"] = 259.52850341797,   ["radius"] = 3.0},
+    {["butchername"] = "Rhodes Butcher",   ["butcherjob"] = "butcher",     ["pressToSell"] = "Drücke [~e~Leer~q~] zum Verkaufen",  ["blip"] = 1369919445,  ["npcmodel"] = "S_M_M_UNIBUTCHERS_01",  ["coords"] = vector3(1297.578, -1277.589, 74.88102),    ["heading"] = 146.60472106934,   ["radius"] = 3.0},
+    {["butchername"] = "Armadillo Butcher", ["butcherjob"] = "butcher",    ["pressToSell"] = "Drücke [~e~Leer~q~] zum Verkaufen",  ["blip"] = 1369919445,  ["npcmodel"] = "S_M_M_UNIBUTCHERS_01",  ["coords"] = vector3(-3691.438, -2623.152, -14.75121),  ["heading"] = 0.46632757782936,  ["radius"] = 3.0},
+    {["butchername"] = "Tumbleweed Butcher", ["butcherjob"] = "butcher",   ["pressToSell"] = "Drücke [~e~Leer~q~] zum Verkaufen",  ["blip"] = 1369919445,  ["npcmodel"] = "S_M_M_UNIBUTCHERS_01",  ["coords"] = vector3(-5510.371, -2947.005, -1.894515),  ["heading"] = 251.54911804199,   ["radius"] = 3.0}
 }
 
 
